@@ -1,0 +1,16 @@
+# Node
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js
+.next
+out
+bloodlink/
+
+# Env - ignore all dotenv files to prevent committing secrets
+# (Templates like .env.example are intentionally allowed below)
+.env*
+!.env.example
